@@ -1,0 +1,76 @@
+<div class="container mt-4">
+    <h1>CRUD de Fantasy Books</h1>
+
+    <!-- Listado de libros -->
+    <table class="table table-striped table-dark">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Autores</th>
+            <th>Download Count</th>
+            <th>Acciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Usamos el pipe async para manejar la suscripción al observable. Los observables se manejan de forma parecida
+            a los promesas, pero permiten múltiples valores a lo largo del tiempo.
+         -->
+        <tr *ngFor="let book of (books | async)" >
+            <td>{{ book.id }}</td>
+            <td>{{ book.title }}</td>
+            <td>
+
+          <span *ngFor="let author of book.authors; let i = index">
+            {{ author.name }}<span *ngIf="i < book.authors.length - 1">, </span>
+          </span>
+            </td>
+            <td>{{ book.download_count }}</td>
+            <td>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button class="btn btn-sm btn-info text-light" (click)="editBook(book)">Editar</button>
+                    <button class="btn btn-sm btn-danger" (click)="deleteBook(book.id)">Eliminar</button>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Formulario para agregar/editar libro -->
+    <div class="card mt-4 bg-dark text-light">
+        <div class="card-header">
+            <h2>{{ selectedBook ? 'Editar Libro' : 'Agregar Nuevo Libro' }}</h2>
+        </div>
+        <div class="card-body">
+            <form (ngSubmit)="selectedBook ? updateBook() : addBook()">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Título</label>
+                    <input type="text" id="title" [(ngModel)]="newBook.title" name="title" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="authors" class="form-label">Autores (separados por coma)</label>
+                    <input type="text" id="authors" [(ngModel)]="authorInput" name="authors" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="download_count" class="form-label">Download Count</label>
+                    <!-- ngModel se usa para enlazar el valor del input con la propiedad newBook.download_count
+                    ngModel permite realizar el two-way data binding, es decir, enlazar el valor del input con la propiedad en el componente
+                    -->
+                    <input type="number" id="download_count" [(ngModel)]="newBook.download_count" name="download_count" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    {{ selectedBook ? 'Actualizar' : 'Agregar' }}
+                </button>
+                <button type="button" class="btn btn-secondary ms-2" (click)="resetForm()">Cancelar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!--
+en los atributos se usa () para los eventos
+[] para las propiedades
+([]) es two-way data binding, es decir, enlazar el valor del input con la propiedad en el componente
+* se usa para las directivas estructurales, como *ngFor y *ngIf
+-->

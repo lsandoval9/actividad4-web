@@ -1,0 +1,1256 @@
+{
+    "count": 764,
+    "next": "http://gutendex.com/books/?page=2&topic=fantasy",
+    "previous": null,
+    "results": [
+        {
+            "id": 11,
+            "title": "Alice's Adventures in Wonderland",
+            "authors": [
+                {
+                    "name": "Carroll, Lewis",
+                    "birth_year": 1832,
+                    "death_year": 1898
+                },
+                {
+                    "name": "Saavedra, Jose",
+                    "birth_year": 1832,
+                    "death_year": 1898
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Alice (Fictitious character from Carroll) -- Juvenile fiction",
+                "Children's stories",
+                "Fantasy fiction",
+                "Imaginary places -- Juvenile fiction"
+            ],
+            "bookshelves": [
+                "Children's Literature"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/11.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/11.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/11.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/11.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/11/pg11.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/11/11-0.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/11.txt.utf-8"
+            },
+            "download_count": 26791
+        },
+        {
+            "id": 55,
+            "title": "The Wonderful Wizard of Oz",
+            "authors": [
+                {
+                    "name": "Baum, L. Frank (Lyman Frank)",
+                    "birth_year": 1856,
+                    "death_year": 1919
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Courage -- Juvenile fiction",
+                "Cowardly Lion (Fictitious character) -- Juvenile fiction",
+                "Cyclones -- Juvenile fiction",
+                "Dreams -- Juvenile fiction",
+                "Fantasy literature",
+                "Gale, Dorothy (Fictitious character) -- Juvenile fiction",
+                "Good and evil -- Juvenile fiction",
+                "Home -- Juvenile fiction",
+                "Oz (Imaginary place) -- Juvenile fiction",
+                "Scarecrow (Fictitious character from Baum) -- Juvenile fiction",
+                "Tin Woodman (Fictitious character) -- Juvenile fiction",
+                "Toto (Fictitious character) -- Juvenile fiction",
+                "Witches -- Juvenile fiction",
+                "Wizard of Oz (Fictitious character) -- Juvenile fiction"
+            ],
+            "bookshelves": [
+                "Children's Literature",
+                "Fantasy"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/55.html.images",
+                "text/html; charset=utf-8": "https://www.gutenberg.org/files/55/55-h/55-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/55.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/55.kf8.images",
+                "text/plain; charset=utf-8": "https://www.gutenberg.org/files/55/55-0.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/55.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/55/pg55.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/55/pg55-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/55.txt.utf-8"
+            },
+            "download_count": 9849
+        },
+        {
+            "id": 16,
+            "title": "Peter Pan",
+            "authors": [
+                {
+                    "name": "Barrie, J. M. (James Matthew)",
+                    "birth_year": 1860,
+                    "death_year": 1937
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Fairies -- Fiction",
+                "Fantasy literature",
+                "Never-Never Land (Imaginary place) -- Fiction",
+                "Peter Pan (Fictitious character) -- Fiction",
+                "Pirates -- Fiction"
+            ],
+            "bookshelves": [
+                "Children's Literature",
+                "Movie Books"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/16.html.images",
+                "text/html; charset=utf-8": "https://www.gutenberg.org/files/16/16-h/16-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/16.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/16.kf8.images",
+                "text/plain; charset=utf-8": "https://www.gutenberg.org/files/16/16-0.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/16.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/16/pg16.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/16/pg16-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/16.txt.utf-8"
+            },
+            "download_count": 8547
+        },
+        {
+            "id": 12,
+            "title": "Through the Looking-Glass",
+            "authors": [
+                {
+                    "name": "Carroll, Lewis",
+                    "birth_year": 1832,
+                    "death_year": 1898
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Alice (Fictitious character from Carroll) -- Juvenile fiction",
+                "Children's stories",
+                "Fantasy fiction",
+                "Imaginary places -- Juvenile fiction"
+            ],
+            "bookshelves": [
+                "Best Books Ever Listings",
+                "Children's Literature"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/12.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/12.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/12.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/12.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/12/pg12.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/12/12-0.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/12.txt.utf-8"
+            },
+            "download_count": 5617
+        },
+        {
+            "id": 2148,
+            "title": "The Works of Edgar Allan Poe — Volume 2",
+            "authors": [
+                {
+                    "name": "Poe, Edgar Allan",
+                    "birth_year": 1809,
+                    "death_year": 1849
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "American fiction -- 19th century",
+                "Fantasy fiction",
+                "Horror tales, American",
+                "Short stories"
+            ],
+            "bookshelves": [
+                "Detective Fiction",
+                "Gothic Fiction",
+                "Horror",
+                "Mystery Fiction"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/2148.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/2148.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2148.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/2148.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/2148/pg2148.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/2148/2148-0.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/2148.txt.utf-8"
+            },
+            "download_count": 4875
+        },
+        {
+            "id": 829,
+            "title": "Gulliver's Travels into Several Remote Nations of the World",
+            "authors": [
+                {
+                    "name": "Swift, Jonathan",
+                    "birth_year": 1667,
+                    "death_year": 1745
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Fantasy fiction",
+                "Gulliver, Lemuel (Fictitious character) -- Fiction",
+                "Satire",
+                "Travelers -- Fiction",
+                "Voyages, Imaginary -- Early works to 1800"
+            ],
+            "bookshelves": [
+                "Banned Books from Anne Haight's list",
+                "Best Books Ever Listings"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/829.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/829.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/829.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/829.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/829/pg829.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/829/829-0.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/829.txt.utf-8"
+            },
+            "download_count": 4634
+        },
+        {
+            "id": 1251,
+            "title": "Le Morte d'Arthur: Volume 1",
+            "authors": [
+                {
+                    "name": "Malory, Thomas, Sir",
+                    "birth_year": null,
+                    "death_year": 1471
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Arthur, King -- Legends",
+                "Arthurian romances"
+            ],
+            "bookshelves": [
+                "Arthurian Legends",
+                "Fantasy"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/1251.html.images",
+                "text/html; charset=utf-8": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/1251.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1251.kf8.images",
+                "text/plain; charset=utf-8": "https://www.gutenberg.org/files/1251/1251-0.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/1251.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/1251/pg1251.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/1251/pg1251-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/1251.txt.utf-8"
+            },
+            "download_count": 4167
+        },
+        {
+            "id": 519,
+            "title": "A Kidnapped Santa Claus",
+            "authors": [
+                {
+                    "name": "Baum, L. Frank (Lyman Frank)",
+                    "birth_year": 1856,
+                    "death_year": 1919
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Christmas stories",
+                "Fantasy literature",
+                "Santa Claus -- Juvenile fiction"
+            ],
+            "bookshelves": [
+                "Children's Literature",
+                "Christmas"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/519.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/519.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/519.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/519.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/519/pg519.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/519/pg519-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/519.txt.utf-8"
+            },
+            "download_count": 3507
+        },
+        {
+            "id": 2147,
+            "title": "The Works of Edgar Allan Poe — Volume 1",
+            "authors": [
+                {
+                    "name": "Poe, Edgar Allan",
+                    "birth_year": 1809,
+                    "death_year": 1849
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "American fiction -- 19th century",
+                "Fantasy fiction",
+                "Horror tales, American",
+                "Poe, Edgar Allan, 1809-1849"
+            ],
+            "bookshelves": [
+                "Detective Fiction",
+                "Horror",
+                "Mystery Fiction"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/2147.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/2147.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2147.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/2147.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/2147/pg2147.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/2147/2147-0.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/2147.txt.utf-8"
+            },
+            "download_count": 2429
+        },
+        {
+            "id": 289,
+            "title": "The Wind in the Willows",
+            "authors": [
+                {
+                    "name": "Grahame, Kenneth",
+                    "birth_year": 1859,
+                    "death_year": 1932
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Animals -- Fiction",
+                "Country life -- Fiction",
+                "England -- Fiction",
+                "Fantasy fiction",
+                "Friendship -- Fiction",
+                "Humorous stories",
+                "Pastoral fiction",
+                "River life -- Fiction"
+            ],
+            "bookshelves": [
+                "Best Books Ever Listings",
+                "Children's Literature"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/289.html.images",
+                "text/html; charset=utf-8": "https://www.gutenberg.org/files/289/289-h/289-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/289.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/289.kf8.images",
+                "text/plain; charset=utf-8": "https://www.gutenberg.org/files/289/289-0.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/289.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/289/pg289.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/289/pg289-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/289.txt.utf-8"
+            },
+            "download_count": 2264
+        },
+        {
+            "id": 86,
+            "title": "A Connecticut Yankee in King Arthur's Court",
+            "authors": [
+                {
+                    "name": "Twain, Mark",
+                    "birth_year": 1835,
+                    "death_year": 1910
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Americans -- Great Britain -- Fiction",
+                "Arthurian romances -- Adaptations",
+                "Britons -- Fiction",
+                "Fantasy fiction",
+                "Kings and rulers -- Fiction",
+                "Knights and knighthood -- Fiction",
+                "Satire",
+                "Time travel -- Fiction"
+            ],
+            "bookshelves": [
+                "Arthurian Legends",
+                "Precursors of Science Fiction"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/86.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/86.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/86.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/86.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/86/pg86.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/86/86-0.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/86.txt.utf-8"
+            },
+            "download_count": 1971
+        },
+        {
+            "id": 27805,
+            "title": "The Wind in the Willows",
+            "authors": [
+                {
+                    "name": "Grahame, Kenneth",
+                    "birth_year": 1859,
+                    "death_year": 1932
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Animals -- Fiction",
+                "Country life -- Fiction",
+                "England -- Fiction",
+                "Fantasy fiction",
+                "Friendship -- Fiction",
+                "Humorous stories",
+                "Pastoral fiction",
+                "River life -- Fiction"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/27805.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/27805/27805-h/27805-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/27805.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/27805.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/27805.txt.utf-8",
+                "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/27805/27805-8.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/27805.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/27805/pg27805.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/27805/pg27805-h.zip"
+            },
+            "download_count": 1881
+        },
+        {
+            "id": 19033,
+            "title": "Alice's Adventures in Wonderland",
+            "authors": [
+                {
+                    "name": "Carroll, Lewis",
+                    "birth_year": 1832,
+                    "death_year": 1898
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Alice (Fictitious character from Carroll) -- Juvenile fiction",
+                "Children's stories",
+                "Fantasy fiction",
+                "Imaginary places -- Juvenile fiction"
+            ],
+            "bookshelves": [
+                "Children's Literature"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/19033.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/19033/19033-h/19033-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/19033.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/19033.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/19033.txt.utf-8",
+                "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/19033/19033-8.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/19033.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/19033/pg19033.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/19033/pg19033-h.zip"
+            },
+            "download_count": 1833
+        },
+        {
+            "id": 26654,
+            "title": "Peter and Wendy",
+            "authors": [
+                {
+                    "name": "Barrie, J. M. (James Matthew)",
+                    "birth_year": 1860,
+                    "death_year": 1937
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Fairies -- Fiction",
+                "Fantasy literature",
+                "Never-Never Land (Imaginary place) -- Fiction",
+                "Peter Pan (Fictitious character) -- Fiction",
+                "Pirates -- Fiction"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/26654.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/26654/26654-h/26654-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/26654.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/26654.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/26654.txt.utf-8",
+                "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/26654/26654-8.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/26654.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/26654/pg26654.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/26654/pg26654-h.zip"
+            },
+            "download_count": 1702
+        },
+        {
+            "id": 1200,
+            "title": "Gargantua and Pantagruel",
+            "authors": [
+                {
+                    "name": "Rabelais, François",
+                    "birth_year": null,
+                    "death_year": null
+                }
+            ],
+            "translators": [
+                {
+                    "name": "Motteux, Peter Anthony",
+                    "birth_year": 1660,
+                    "death_year": 1718
+                },
+                {
+                    "name": "Urquhart, Thomas, Sir",
+                    "birth_year": 1611,
+                    "death_year": 1660
+                }
+            ],
+            "subjects": [
+                "Fantasy fiction, French -- Translations into English",
+                "Gargantua (Legendary character) -- Fiction",
+                "Giants -- Fiction"
+            ],
+            "bookshelves": [
+                "Banned Books from Anne Haight's list",
+                "Best Books Ever Listings"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/1200.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/1200/1200-h/1200-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/1200.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1200.kf8.images",
+                "text/plain; charset=utf-8": "https://www.gutenberg.org/files/1200/1200-0.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/1200.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/1200/pg1200.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/1200/pg1200-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/1200.txt.utf-8"
+            },
+            "download_count": 1695
+        },
+        {
+            "id": 43936,
+            "title": "The Wonderful Wizard of Oz",
+            "authors": [
+                {
+                    "name": "Baum, L. Frank (Lyman Frank)",
+                    "birth_year": 1856,
+                    "death_year": 1919
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Courage -- Juvenile fiction",
+                "Cowardly Lion (Fictitious character) -- Juvenile fiction",
+                "Cyclones -- Juvenile fiction",
+                "Dreams -- Juvenile fiction",
+                "Fantasy literature",
+                "Gale, Dorothy (Fictitious character) -- Juvenile fiction",
+                "Good and evil -- Juvenile fiction",
+                "Home -- Juvenile fiction",
+                "Oz (Imaginary place) -- Juvenile fiction",
+                "Scarecrow (Fictitious character from Baum) -- Juvenile fiction",
+                "Tin Woodman (Fictitious character) -- Juvenile fiction",
+                "Toto (Fictitious character) -- Juvenile fiction",
+                "Witches -- Juvenile fiction",
+                "Wizard of Oz (Fictitious character) -- Juvenile fiction"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/43936.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/43936/43936-h/43936-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/43936.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/43936.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/43936.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/43936/pg43936.cover.medium.jpg",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/43936.txt.utf-8",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/43936/pg43936-h.zip"
+            },
+            "download_count": 1626
+        },
+        {
+            "id": 28885,
+            "title": "Alice's Adventures in Wonderland: Illustrated by Arthur Rackham. With a Proem by Austin Dobson",
+            "authors": [
+                {
+                    "name": "Carroll, Lewis",
+                    "birth_year": 1832,
+                    "death_year": 1898
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Alice (Fictitious character from Carroll) -- Juvenile fiction",
+                "Children's stories",
+                "Fantasy fiction",
+                "Imaginary places -- Juvenile fiction"
+            ],
+            "bookshelves": [
+                "Banned Books from Anne Haight's list"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/28885.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/28885/28885-h/28885-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/28885.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/28885.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/28885.txt.utf-8",
+                "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/28885/28885-8.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/28885.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/28885/pg28885.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/28885/pg28885-h.zip"
+            },
+            "download_count": 1585
+        },
+        {
+            "id": 22566,
+            "title": "Dorothy and the Wizard in Oz",
+            "authors": [
+                {
+                    "name": "Baum, L. Frank (Lyman Frank)",
+                    "birth_year": 1856,
+                    "death_year": 1919
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Cats -- Juvenile fiction",
+                "Cousins -- Juvenile fiction",
+                "Dragons -- Juvenile fiction",
+                "Earthquakes -- Juvenile fiction",
+                "Fantasy literature",
+                "Friendship -- Juvenile fiction",
+                "Gale, Dorothy (Fictitious character) -- Juvenile fiction",
+                "Kittens -- Juvenile fiction",
+                "Magic -- Juvenile fiction",
+                "Mountains -- Juvenile fiction",
+                "Nephews -- Juvenile fiction",
+                "Oz (Imaginary place) -- Juvenile fiction",
+                "Piglets -- Juvenile fiction",
+                "Ranches -- Juvenile fiction",
+                "Trials -- Juvenile fiction",
+                "Wizard of Oz (Fictitious character) -- Juvenile fiction"
+            ],
+            "bookshelves": [
+                "Children's Literature",
+                "Fantasy"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/22566.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/22566/22566-h/22566-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/22566.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/22566.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/22566.txt.utf-8",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/22566.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/22566/pg22566.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/22566/pg22566-h.zip"
+            },
+            "download_count": 1396
+        },
+        {
+            "id": 2048,
+            "title": "The Sketch-Book of Geoffrey Crayon",
+            "authors": [
+                {
+                    "name": "Irving, Washington",
+                    "birth_year": 1783,
+                    "death_year": 1859
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Americans -- England -- History -- 19th century",
+                "Catskill Mountains Region (N.Y.) -- Fiction",
+                "England -- Social life and customs -- 19th century",
+                "Fantasy fiction, American",
+                "Hudson River Valley (N.Y. and N.J.) -- Fiction",
+                "Irving, Washington, 1783-1859 -- Travel -- England"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/2048.html.images",
+                "text/html; charset=us-ascii": "https://www.gutenberg.org/files/2048/2048-h/2048-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/2048.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2048.kf8.images",
+                "text/plain; charset=utf-8": "https://www.gutenberg.org/files/2048/2048-0.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/2048.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/2048/pg2048.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/2048/pg2048-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/2048.txt.utf-8"
+            },
+            "download_count": 1367
+        },
+        {
+            "id": 78,
+            "title": "Tarzan of the Apes",
+            "authors": [
+                {
+                    "name": "Burroughs, Edgar Rice",
+                    "birth_year": 1875,
+                    "death_year": 1950
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Adventure stories",
+                "Africa -- Fiction",
+                "British -- Africa -- Fiction",
+                "Fantasy fiction",
+                "Tarzan (Fictitious character) -- Fiction",
+                "Wild men -- Fiction"
+            ],
+            "bookshelves": [
+                "Adventure",
+                "Movie Books"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/78.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/78/78-h/78-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/78.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/78.kf8.images",
+                "text/plain; charset=utf-8": "https://www.gutenberg.org/files/78/78-0.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/78.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/78/pg78.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/78/pg78-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/78.txt.utf-8"
+            },
+            "download_count": 1292
+        },
+        {
+            "id": 12753,
+            "title": "The Legends of King Arthur and His Knights",
+            "authors": [
+                {
+                    "name": "Malory, Thomas, Sir",
+                    "birth_year": null,
+                    "death_year": 1471
+                },
+                {
+                    "name": "Knowles, James, Sir",
+                    "birth_year": 1831,
+                    "death_year": 1908
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Arthur, King -- Legends",
+                "Arthurian romances -- Adaptations",
+                "Folklore -- England",
+                "Knights and knighthood -- Folklore"
+            ],
+            "bookshelves": [
+                "Arthurian Legends",
+                "Fantasy"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/12753.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/12753.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/12753.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/12753.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/12753/pg12753.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/12753/12753-0.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/12753.txt.utf-8"
+            },
+            "download_count": 1279
+        },
+        {
+            "id": 1252,
+            "title": "Le Morte d'Arthur: Volume 2",
+            "authors": [
+                {
+                    "name": "Malory, Thomas, Sir",
+                    "birth_year": null,
+                    "death_year": 1471
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Arthur, King -- Legends",
+                "Arthurian romances"
+            ],
+            "bookshelves": [
+                "Arthurian Legends",
+                "Fantasy"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/1252.html.images",
+                "text/html; charset=utf-8": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/1252.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1252.kf8.images",
+                "text/plain; charset=utf-8": "https://www.gutenberg.org/files/1252/1252-0.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/1252.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/1252/pg1252.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/1252/pg1252-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/1252.txt.utf-8"
+            },
+            "download_count": 1244
+        },
+        {
+            "id": 139,
+            "title": "The Lost World",
+            "authors": [
+                {
+                    "name": "Doyle, Arthur Conan",
+                    "birth_year": 1859,
+                    "death_year": 1930
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Challenger, Professor (Fictitious character) -- Fiction",
+                "Dinosaurs -- Fiction",
+                "Fantasy fiction",
+                "Prehistoric peoples -- Fiction",
+                "South America -- Fiction"
+            ],
+            "bookshelves": [
+                "Science Fiction"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/139.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/139/139-h/139-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/139.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/139.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/139.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/139/pg139.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/139/pg139-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/139.txt.utf-8"
+            },
+            "download_count": 1243
+        },
+        {
+            "id": 17157,
+            "title": "Gulliver's Travels into Several Remote Regions of the World",
+            "authors": [
+                {
+                    "name": "Swift, Jonathan",
+                    "birth_year": 1667,
+                    "death_year": 1745
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Fantasy fiction",
+                "Gulliver, Lemuel (Fictitious character) -- Fiction",
+                "Satire",
+                "Travelers -- Fiction",
+                "Voyages, Imaginary -- Early works to 1800"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/17157.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/17157.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/17157.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/17157.txt.utf-8",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/17157.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/17157/pg17157.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/17157/17157-0.zip"
+            },
+            "download_count": 1241
+        },
+        {
+            "id": 1695,
+            "title": "The Man Who Was Thursday: A Nightmare",
+            "authors": [
+                {
+                    "name": "Chesterton, G. K. (Gilbert Keith)",
+                    "birth_year": 1874,
+                    "death_year": 1936
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Allegories",
+                "Anarchists -- Fiction",
+                "Detective and mystery stories",
+                "Fantasy fiction",
+                "London (England) -- Fiction",
+                "Police -- Fiction"
+            ],
+            "bookshelves": [
+                "Best Books Ever Listings"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/1695.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/1695.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1695.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/1695.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/1695/pg1695.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/1695/1695-0.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/1695.txt.utf-8"
+            },
+            "download_count": 1229
+        },
+        {
+            "id": 72415,
+            "title": "The spirit of Toffee",
+            "authors": [
+                {
+                    "name": "Farrell, Henry",
+                    "birth_year": 1920,
+                    "death_year": 2006
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Fantasy fiction",
+                "Science fiction",
+                "Subconsciousness -- Fiction"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/72415.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/72415.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/72415.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/72415.txt.utf-8",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/72415.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/72415/pg72415.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/72415/pg72415-h.zip"
+            },
+            "download_count": 1169
+        },
+        {
+            "id": 10148,
+            "title": "The Merry Adventures of Robin Hood",
+            "authors": [
+                {
+                    "name": "Pyle, Howard",
+                    "birth_year": 1853,
+                    "death_year": 1911
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Folklore -- England",
+                "Robin Hood (Legendary character) -- Legends"
+            ],
+            "bookshelves": [
+                "Fantasy"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/10148.html.images",
+                "text/html; charset=us-ascii": "https://www.gutenberg.org/files/10148/10148-h/10148-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/10148.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/10148.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/10148.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/10148/pg10148.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/10148/pg10148-h.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/10148.txt.utf-8"
+            },
+            "download_count": 1125
+        },
+        {
+            "id": 54,
+            "title": "The Marvelous Land of Oz",
+            "authors": [
+                {
+                    "name": "Baum, L. Frank (Lyman Frank)",
+                    "birth_year": 1856,
+                    "death_year": 1919
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Conduct of life -- Juvenile fiction",
+                "Fantasy literature",
+                "Friendship -- Juvenile fiction",
+                "Kings and rulers -- Juvenile fiction",
+                "Magic -- Juvenile fiction",
+                "Oz (Imaginary place) -- Juvenile fiction",
+                "Practical jokes -- Juvenile fiction",
+                "Queens -- Juvenile fiction",
+                "Voyages and travels -- Juvenile fiction",
+                "Witches -- Juvenile fiction",
+                "Women soldiers -- Juvenile fiction",
+                "Youth -- Conduct of life -- Juvenile fiction"
+            ],
+            "bookshelves": [
+                "Children's Literature",
+                "Fantasy"
+            ],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/54.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/54.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/54.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/54.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/54/pg54.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/files/54/54-0.zip",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/54.txt.utf-8"
+            },
+            "download_count": 1105
+        },
+        {
+            "id": 35688,
+            "title": "Alice in Wonderland: A Dramatization of Lewis Carroll's \"Alice's Adventures in Wonderland\" and \"Through the Looking Glass\"",
+            "authors": [
+                {
+                    "name": "Carroll, Lewis",
+                    "birth_year": 1832,
+                    "death_year": 1898
+                },
+                {
+                    "name": "Gerstenberg, Alice",
+                    "birth_year": 1885,
+                    "death_year": 1972
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Children's plays",
+                "Fantasy drama"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/35688.html.images",
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/35688/35688-h/35688-h.htm",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/35688.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/35688.kf8.images",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/35688.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/35688/pg35688.cover.medium.jpg",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/35688.txt.utf-8",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/35688/pg35688-h.zip"
+            },
+            "download_count": 1092
+        },
+        {
+            "id": 114,
+            "title": "The Tenniel Illustrations for Carroll's Alice in Wonderland",
+            "authors": [
+                {
+                    "name": "Tenniel, John",
+                    "birth_year": 1820,
+                    "death_year": 1914
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Children's stories",
+                "Fantasy fiction"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "StillImage",
+            "formats": {
+                "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/114/114-h/114-h.htm",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/114/114.txt",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/114.rdf"
+            },
+            "download_count": 1078
+        },
+        {
+            "id": 72422,
+            "title": "For service rendered",
+            "authors": [
+                {
+                    "name": "Bone, Jesse F. (Jesse Franklin)",
+                    "birth_year": 1916,
+                    "death_year": 2006
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Fantasy fiction",
+                "Short stories"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/72422.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/72422.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/72422.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/72422.txt.utf-8",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/72422.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/72422/pg72422.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/72422/pg72422-h.zip"
+            },
+            "download_count": 1008
+        },
+        {
+            "id": 72489,
+            "title": "Nightmare on the nose",
+            "authors": [
+                {
+                    "name": "Smith, Evelyn E.",
+                    "birth_year": 1922,
+                    "death_year": 2000
+                }
+            ],
+            "translators": [],
+            "subjects": [
+                "Fantasy fiction",
+                "Horse racing -- Fiction",
+                "Short stories"
+            ],
+            "bookshelves": [],
+            "languages": [
+                "en"
+            ],
+            "copyright": false,
+            "media_type": "Text",
+            "formats": {
+                "text/html": "https://www.gutenberg.org/ebooks/72489.html.images",
+                "application/epub+zip": "https://www.gutenberg.org/ebooks/72489.epub3.images",
+                "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/72489.kf8.images",
+                "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/72489.txt.utf-8",
+                "application/rdf+xml": "https://www.gutenberg.org/ebooks/72489.rdf",
+                "image/jpeg": "https://www.gutenberg.org/cache/epub/72489/pg72489.cover.medium.jpg",
+                "application/octet-stream": "https://www.gutenberg.org/cache/epub/72489/pg72489-h.zip"
+            },
+            "download_count": 1000
+        }
+    ]
+}

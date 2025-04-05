@@ -1,0 +1,33 @@
+<header>
+    <div class="d-flex text-center justify-content-center align-items-center">
+        <img src="/images/logo.png" alt="Logo"  class="logo" height="125" width="125" />
+        <div>
+            <h3 style="color: #F52CA7; text-align: left" >You did it!</h3>
+            <div>
+                <p>
+                    You’ve successfully created a project with <a style="color: #F52CA7;" href="https://angular.dev/">Angular</a>. What's next?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- routerLink se usa para enlazar a una ruta
+                en angular, se usa en lugar de href para evitar que la página no se recargue -->
+                <li class="nav-item active" routerLink="/">
+                    <a class="nav-link">Home</a>
+                </li>
+                <li class="nav-item" routerLink="/books">
+                    <a class="nav-link">Books</a>
+                </li>
+                <li class="nav-item" routerLink="/about">
+                    <a class="nav-link">About</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+    </div>
+</header>
