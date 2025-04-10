@@ -1,0 +1,347 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm} % Márgenes ajustados
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Informe Comparativo Angular vs Vue.js},
+    pdfpagemode=FullScreen,
+}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{beramono} % O cualquier otra fuente monoespaciada que prefieras
+
+% --- Configuración de Listings para código ---
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstdefinestyle{mystyle}{
+    language=JavaScript,
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize\ttfamily, % Tamaño de fuente más pequeño y fuente monoespaciada
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+% --- Metadatos del documento ---
+\title{Informe Comparativo: Implementación de Ejercicios \\ Angular vs. Vue.js}
+\author{Jesus Machado C.I: 28.553.080\\
+        Luis Augusto Sandoval C.I: 26.781.082 \\
+        Cesar Campo C.I: 28.022.781 }
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty} % No numerar la página del título
+\newpage
+
+\tableofcontents
+\newpage
+
+% --- Introducción ---
+\section{Introducción}
+Este informe presenta un análisis comparativo detallado entre dos implementaciones de los ejercicios vistos en clase. Una versión fue desarrollada utilizando el framework \textbf{Vue.js} (código original proporcionado) y la otra utilizando \textbf{Angular} (nueva implementación).
+
+El objetivo es destacar las diferencias clave en el enfoque de desarrollo, centrándonos en aspectos específicos como el manejo de vistas, el estado y los "hooks" (ciclo de vida y estado en Angular), la gestión de datos (fetching/almacenamiento) y la reactividad. Además, se incluye una comparación general entre Angular y Vue.js.
+
+La implementación de Angular se realizó utilizando \textbf{Angular CLI}, \textbf{TypeScript} como lenguaje principal, componentes \textbf{standalone} y \textbf{Bootstrap} para los estilos base, mientras que la versión original utiliza \textbf{Vue 3} con \textbf{Composition API}, \textbf{Vite} como herramienta de construcción y \textbf{Vuetify} como librería de componentes UI.
+
+% --- Puntos de Comparación Detallada ---
+\section{Análisis Comparativo Detallado (Angular vs. Vue.js)}
+
+A continuación, se detallan las diferencias observadas en los aspectos solicitados, contrastando la implementación en Angular con la base de Vue.js.
+
+% --- Manejo de Vistas ---
+\subsection{Manejo de Vistas}
+
+\subsubsection{Angular}
+En Angular, la gestión de vistas se basa en una arquitectura de \textbf{Componentes}. Cada componente típicamente separa su lógica, plantilla y estilos en archivos distintos:
+\begin{itemize}
+    \item \textbf{Lógica del Componente (\texttt{.ts}):} Una clase TypeScript decorada con \texttt{@Component}, donde se define el estado (propiedades de la clase) y el comportamiento (métodos). Ejemplo: \texttt{books.component.ts}.
+    \item \textbf{Plantilla (\texttt{.html}):} Un archivo HTML que define la estructura visual del componente. Utiliza una sintaxis específica de Angular con directivas estructurales como \texttt{*ngFor} (para iterar    listas) y \texttt{*ngIf} (para renderizado condicional), y data binding (`[]` para propiedades, `()` para eventos, `[()]` para two-way binding con \texttt{ngModel}). Ejemplo: \texttt{books.component.html}.
+    
+    \item \textbf{Estilos (\texttt{.scss} o \texttt{.css}):} Archivo para definir los estilos específicos del componente (encapsulados por defecto). Ejemplo: \texttt{books.component.scss}.
+\end{itemize}
+El enrutamiento se gestiona mediante el módulo \texttt{RouterModule}, configurando las rutas en un archivo (\texttt{app.routes.ts}) y utilizando el componente \texttt{<router-outlet>} para renderizar el componente activo.
+
+\textbf{Ejemplo (Template Binding en \texttt{books.component.html}):}
+\begin{lstlisting}[language=HTML]
+<tr *ngFor="let book of (books | async)">
+  <td>{{ book.id }}</td>
+  <td>{{ book.title }}</td>
+  <td>
+    <span *ngFor="let author of book.authors; let i = index">
+      {{ author.name }}<span *ngIf="i < book.authors.length - 1">, </span>
+    </span>
+  </td>
+  <td>{{ book.download_count }}</td>
+  <td>
+    <!-- Event Binding con (click) -->
+    <button class="btn btn-sm btn-info" (click)="editBook(book)">Editar</button>
+    <!-- Two-way Binding con [(ngModel)] en el formulario -->
+    <input type="text" [(ngModel)]="newBook.title" name="title">
+  </td>
+</tr>
+\end{lstlisting}
+
+\subsubsection{Vue.js (Código Original)}
+Vue.js utiliza \textbf{Single File Components (SFC)} con extensión \texttt{.vue}. Estos archivos agrupan la plantilla, la lógica y los estilos en un solo lugar:
+\begin{itemize}
+    \item \textbf{Plantilla (\texttt{<template>}):} HTML enriquecido con directivas de Vue como \texttt{v-for}, \texttt{v-if}, y sintaxis de binding (`:` o `v-bind:` para props, `@` o `v-on:` para eventos, `v-model` para two-way binding).
+    \item \textbf{Lógica (\texttt{<script setup lang="ts">}):} Utiliza la Composition API, donde la lógica se organiza mediante funciones componibles. El estado y los métodos se definen directamente dentro del \texttt{setup}.
+    \item \textbf{Estilos (\texttt{<style scoped>}):} CSS/SCSS/Less que se aplican únicamente al componente actual si se usa el atributo `scoped`.
+\end{itemize}
+El enrutamiento se configura con \texttt{vue-router} (archivo \texttt{router/index.ts}) y se usa el componente \texttt{<RouterView>} para mostrar la vista correspondiente. La implementación original usa \textbf{Vuetify} para los componentes UI, lo que abstrae mucho HTML y CSS.
+
+\subsubsection{Diferencias Clave}
+\begin{itemize}
+    \item \textbf{Estructura de Archivos:} Angular separa lógica, plantilla y estilos por defecto; Vue los agrupa en SFCs.
+    \item \textbf{Sintaxis de Plantillas:} Diferentes directivas (`*ngFor` vs. `v-for`, `*ngIf` vs. `v-if`) y sintaxis de binding (`[]`/`()` vs. `:`/`@`). Angular es más explícito en la separación de bindings.
+    \item \textbf{Organización de la Lógica:} Clases TypeScript con decoradores en Angular vs. Composition API funcional en `<script setup>` de Vue 3.
+    \item \textbf{UI Components:} Angular usó Bootstrap manualmente, Vue usó la librería Vuetify integrada.
+\end{itemize}
+
+% --- Hooks y State ---
+\subsection{Uso de Hooks y State}
+
+\subsubsection{Angular}
+Angular no utiliza el término "Hooks" de la misma manera que React o Vue. Los conceptos equivalentes son:
+\begin{itemize}
+    \item \textbf{Ciclo de Vida (Lifecycle Hooks):} Son métodos específicos que se pueden implementar en la clase del componente (e.g., `ngOnInit`, `ngOnDestroy`, `ngOnChanges`). Se definen como métodos de la clase que implementan interfaces predefinidas (e.g., `OnInit`).
+    \item \textbf{Estado (State):} El estado del componente se gestiona principalmente mediante \textbf{propiedades} de la clase TypeScript. Para estados más complejos o compartidos entre componentes, se utilizan \textbf{Servicios} inyectables y \textbf{RxJS} (e.g., `BehaviorSubject` o `Subject`) para manejar flujos de datos reactivos.
+    \item \textbf{Comunicación:} `@Input()` para pasar datos del padre al hijo, `@Output()` junto con `EventEmitter` para emitir eventos del hijo al padre.
+\end{itemize}
+
+\textbf{Ejemplo (Estado y Ciclo de Vida en \texttt{books.component.ts}):}
+\begin{lstlisting}[language=JavaScript]
+import { Component, OnInit } from '@angular/core';
+import { BehaviorSubject } from 'rxjs'; // Para estado reactivo
+import { Book } from './book.model';
+// ... otras importaciones
+
+@Component({ /* Decorador */ })
+export class BooksComponent implements OnInit { // Implementa interfaz de ciclo de vida
+
+  // Estado gestionado como propiedades de clase
+  books: BehaviorSubject<Book[]> = new BehaviorSubject<Book[]>([]); // Estado reactivo con RxJS
+  selectedBook: Book | null = null; // Estado simple
+  newBook: Partial<Book> = { /*...*/ }; // Estado para el formulario
+  authorInput: string = '';
+
+  constructor(private http: HttpClient) { } // Inyeccion de dependencias
+
+  // Metodo del ciclo de vida OnInit
+  ngOnInit(): void {
+    this.loadBooks();
+  }
+
+  loadBooks(): void {
+    this.http.get<any>('/json/fantasy-books.json').subscribe(data => {
+      this.books.next(data.results); // Actualiza el BehaviorSubject
+    });
+  }
+  // ... otros metodos (addBook, editBook, etc.)
+}
+\end{lstlisting}
+
+\subsubsection{Vue.js (Código Original)}
+Vue 3 con Composition API maneja estado y ciclo de vida así:
+\begin{itemize}
+    \item \textbf{Estado Reactivo:} Utiliza funciones como `ref()` para tipos primitivos y `reactive()` para objetos, creando referencias reactivas. Cualquier cambio en estas referencias actualiza automáticamente la vista.
+    \item \textbf{Ciclo de Vida (Lifecycle Hooks):} Son funciones importadas directamente (e.g., `onMounted`, `onUpdated`, `onUnmounted`) y llamadas dentro del bloque `<script setup>`.
+    \item \textbf{Comunicación:} Props definidos con `defineProps()` y eventos emitidos con `defineEmits()`.
+\end{itemize}
+
+\textbf{Ejemplo conceptual (Estado y Ciclo de vida en Vue):}
+\begin{lstlisting}[language=JavaScript]
+import { ref, onMounted } from 'vue';
+import axios from 'axios'; // Dependencia externa para fetching
+
+// <script setup lang="ts">
+const books = ref([]); // Estado reactivo con ref()
+const isLoading = ref(true);
+
+const fetchBooks = async () => {
+  try {
+    const response = await axios.get('/json/fantasy-books.json');
+    books.value = response.data.results; // Actualiza el valor de ref
+  } catch (error) {
+    console.error(error);
+  } finally {
+    isLoading.value = false;
+  }
+};
+
+// Hook de ciclo de vida
+onMounted(() => {
+  fetchBooks();
+});
+// </script>
+\end{lstlisting}
+
+\subsubsection{Diferencias Clave}
+\begin{itemize}
+    \item \textbf{Concepto de "Hooks":} Angular usa métodos de ciclo de vida en clases; Vue 3 usa funciones de ciclo de vida importables en `setup`.
+    \item \textbf{Manejo del Estado Reactivo:} Angular requiere el uso explícito de RxJS (`BehaviorSubject`, `async` pipe) o confiar en la detección de cambios de Zone.js para la reactividad; Vue tiene reactividad fina integrada con `ref`/`reactive`.
+    \item \textbf{Estructura:} Estado como propiedades de clase en Angular vs. variables reactivas declaradas en `setup` en Vue.
+\end{itemize}
+
+% --- Gestión de Datos/Almacenamiento ---
+\subsection{Gestión del Almacenamiento (Fetching y State Management)}
+
+\subsubsection{Angular}
+\begin{itemize}
+    \item \textbf{Fetching HTTP:} Se utiliza el módulo \textbf{\texttt{HttpClient}} incorporado, que retorna \textbf{Observables} de RxJS. Esto permite manejar respuestas asíncronas de forma reactiva, encadenar operaciones, cancelar peticiones, etc. El módulo se provee mediante inyección de dependencias (\texttt{provideHttpClient()}) y se inyecta en los componentes o servicios.
+    \item \textbf{Gestión de Estado (Componente):} Como se mencionó, estado simple en propiedades de clase.
+    \item \textbf{Gestión de Estado (Aplicación/Compartido):} Se fomenta el uso de \textbf{Servicios} inyectables para encapsular la lógica de negocio y el estado compartido. Estos servicios pueden usar RxJS (`BehaviorSubject`) para proporcionar datos reactivos a múltiples componentes. Para aplicaciones muy grandes, existen librerías como NgRx (inspirada en Redux).
+    \item \textbf{Almacenamiento Local:} Acceso directo a `localStorage` o `sessionStorage` mediante las APIs del navegador.
+\end{itemize}
+El uso del \textbf{pipe \texttt{async}} en las plantillas es una práctica común para suscribirse (y desuscribirse automáticamente) a Observables.
+
+\textbf{Ejemplo (Uso de \texttt{HttpClient} y \texttt{async} pipe):}
+\begin{lstlisting}[language=JavaScript]
+// En books.component.ts
+loadBooks(): void {
+  // HttpClient retorna un Observable
+  this.http.get<any>('/json/fantasy-books.json').subscribe(data => {
+    this.books.next(data.results); // Actualiza el BehaviorSubject
+  });
+}
+
+// En books.component.html
+<tr *ngFor="let book of (books | async)">
+  <td>{{ book.title }}</td>
+</tr>
+\end{lstlisting}
+
+\subsubsection{Vue.js (Código Original)}
+\begin{itemize}
+    \item \textbf{Fetching HTTP:} No tiene un cliente HTTP incorporado. Se suelen usar librerías externas como \textbf{\texttt{axios}} (como indica el \texttt{package.json} original) o la API nativa \texttt{fetch}. Generalmente se trabaja con \textbf{Promesas} y \texttt{async/await}.
+    \item \textbf{Gestión de Estado (Componente):} Uso de `ref` y `reactive`.
+    \item \textbf{Gestión de Estado (Aplicación/Compartido):} Librerías como \textbf{Pinia} (recomendada actualmente) o Vuex. También se pueden usar `provide`/`inject` o simples Componibles (`composables`) para compartir lógica y estado.
+    \item \textbf{Almacenamiento Local:} Acceso directo a las APIs del navegador.
+\end{itemize}
+
+\subsubsection{Diferencias Clave}
+\begin{itemize}
+    \item \textbf{Cliente HTTP:} Angular tiene `HttpClient` integrado (basado en RxJS); Vue depende de librerías externas (e.g., `axios`, basado en Promesas).
+    \item \textbf{Manejo Asíncrono:} RxJS (Observables) es central en Angular; Promesas (`async/await`) son más comunes en Vue (aunque se puede usar RxJS).
+    \item \textbf{Estado Global:} Servicios con RxJS o NgRx en Angular vs. Pinia/Vuex en Vue. Angular tiene un fuerte énfasis en la Inyección de Dependencias para los servicios.
+    \item \textbf{Integración:} El `async` pipe de Angular simplifica el manejo de Observables en las plantillas.
+\end{itemize}
+
+% --- Reactividad ---
+\subsection{Manejo de la Reactividad}
+
+\subsubsection{Angular}
+La reactividad en Angular se basa principalmente en \textbf{Zone.js}. Esta librería "parchea" (monkey-patches) las APIs asíncronas del navegador (como `setTimeout`, `addEventListener`, `Promise.then`, XHR). Cuando una de estas operaciones finaliza, Zone.js notifica a Angular, que dispara un ciclo de \textbf{detección de cambios}.
+\begin{itemize}
+    \item \textbf{Detección de Cambios:} Angular recorre el árbol de componentes desde la raíz hacia las hojas, comparando los valores actuales de las propiedades vinculadas en la plantilla con sus valores anteriores. Si hay diferencias, actualiza el DOM.
+    \item \textbf{Optimización:} Se puede usar `ChangeDetectionStrategy.OnPush` en los componentes para limitar cuándo se ejecuta la detección de cambios (solo cuando cambian los `@Input` o se dispara un evento explícitamente desde el componente o sus hijos, o cuando un Observable al que se está suscrito con `async` pipe emite un valor).
+    \item \textbf{RxJS:} Aunque no es el mecanismo *fundamental* de detección de cambios del DOM, RxJS es la herramienta principal para *gestionar flujos de datos reactivos* de manera explícita dentro de la lógica de la aplicación.
+\end{itemize}
+La reactividad no es tan "automágica" a nivel de variables individuales como en Vue; depende de que Angular detecte que algo *podría* haber cambiado.
+
+\subsubsection{Vue.js (Código Original)}
+Vue 3 utiliza un sistema de reactividad basado en \textbf{Proxies} de JavaScript.
+\begin{itemize}
+    \item \textbf{Seguimiento Fino:} Cuando se accede a una propiedad de un objeto reactivo (`ref` o `reactive`) dentro de una función de renderizado o un efecto (`computed`, `watch`), Vue registra esa dependencia.
+    \item \textbf{Actualización Automática:} Cuando esa propiedad cambia, Vue sabe exactamente qué componentes o efectos dependen de ella y los vuelve a ejecutar de forma eficiente.
+    \item \textbf{Transparencia:} El desarrollador trabaja con variables JavaScript normales (envueltas en `ref` o `reactive`), y el sistema se encarga de la reactividad de forma transparente.
+\end{itemize}
+Este sistema es generalmente más eficiente en términos de no necesitar revisar todo el árbol de componentes si solo una pequeña parte del estado cambió.
+
+\subsubsection{Diferencias Clave}
+\begin{itemize}
+    \item \textbf{Mecanismo Subyacente:} Zone.js + Detección de Cambios (revisión del árbol) en Angular vs. Proxies + Seguimiento de Dependencias (actualización precisa) en Vue 3.
+    \item \textbf{Granularidad:} La reactividad de Vue es más fina y automática a nivel de variable individual. La de Angular es más a nivel de ciclo de detección (aunque optimizable).
+    \item \textbf{Dependencias Externas:} Angular depende de Zone.js (aunque hay iniciativas para hacerlo opcional); Vue no tiene esta dependencia externa para su reactividad central.
+    \item \textbf{Manejo Explícito:} Angular fomenta el uso de RxJS para manejar explícitamente flujos de datos reactivos.
+\end{itemize}
+
+% --- Comparación General con Vue.js ---
+\section{Comparación General: Angular vs. Vue.js}
+Desde la perspectiva del equipo que trabajó con Angular, aquí se presenta una comparación general con Vue.js, basada en la experiencia y las características observadas.
+
+% --- Facilidad de Aprendizaje ---
+\subsection{Facilidad de Aprendizaje}
+\begin{itemize}
+    \item \textbf{Vue.js:} Generalmente percibido como más fácil de aprender, especialmente para desarrolladores con experiencia en HTML, CSS y JavaScript básicos. Su sintaxis de plantilla es intuitiva y el framework es progresivo (se pueden adoptar características avanzadas gradualmente). La Composition API, aunque potente, introduce un paradigma ligeramente diferente al de la Options API tradicional.
+    \item \textbf{Angular:} Presenta una curva de aprendizaje más pronunciada. Requiere una comprensión sólida de \textbf{TypeScript}, conceptos como \textbf{Inyección de Dependencias}, \textbf{Módulos} (aunque menos relevantes con componentes standalone), \textbf{Decoradores}, y especialmente \textbf{RxJS}. La estructura opinionada y la cantidad de conceptos a asimilar desde el principio pueden ser desafiantes para los principiantes. Sin embargo, esta estructura aporta beneficios en proyectos grandes.
+\end{itemize}
+
+% --- Usabilidad (Experiencia de Desarrollo) ---
+\subsection{Usabilidad (Experiencia de Desarrollo - DX)}
+\begin{itemize}
+    \item \textbf{Vue.js:} Ofrece gran flexibilidad (Options API vs. Composition API). Las SFCs son convenientes para muchos desarrolladores. Las herramientas como Vite proporcionan una experiencia de desarrollo muy rápida (HMR instantáneo). Es menos opinionado, lo que da más libertad pero puede llevar a inconsistencias si no se establecen convenciones.
+    \item \textbf{Angular:} Es muy \textbf{opinionado}, lo que significa que impone una estructura y forma de trabajar. Esto puede ser visto como una ventaja en equipos grandes, ya que promueve la \textbf{consistencia}. El \textbf{Angular CLI} es extremadamente potente para generar código (componentes, servicios, módulos), realizar actualizaciones, linting, testing, etc. La integración profunda con TypeScript es una gran ventaja para la detección temprana de errores y el refactoring en aplicaciones complejas. RxJS, aunque complejo, es muy poderoso para manejar lógica asíncrona compleja. La introducción de componentes \textit{standalone} ha simplificado parte de la configuración inicial.
+\end{itemize}
+
+% --- Características Distintivas ---
+\subsection{Características Distintivas}
+\begin{itemize}
+    \item \textbf{Vue.js:}
+        \begin{itemize}
+            \item \textbf{Simplicidad y Progresividad:} Fácil de empezar, se adapta desde proyectos pequeños a grandes.
+            \item \textbf{Flexibilidad:} Opciones para organizar el código (Options vs. Composition).
+            \item \textbf{Rendimiento:} Reactividad fina basada en Proxies muy eficiente.
+            \item \textbf{SFCs:} Combinación conveniente de plantilla, lógica y estilos.
+        \end{itemize}
+    \item \textbf{Angular:}
+        \begin{itemize}
+            \item \textbf{Framework Completo ("Batteries Included"):} Incluye soluciones integradas para routing, HTTP, gestión de estado básica (servicios), formularios, etc.
+            \item \textbf{TypeScript como Ciudadano de Primera Clase:} Fuerte tipado y herramientas avanzadas desde el inicio.
+            \item \textbf{Inyección de Dependencias (DI):} Sistema robusto para gestionar servicios y dependencias, facilitando el testing y la modularidad.
+            \item \textbf{RxJS:} Integración profunda para programación reactiva y manejo de flujos de datos asíncronos.
+            \item \textbf{Angular CLI:} Herramienta de línea de comandos muy completa que estandariza el desarrollo.
+            \item \textbf{Arquitectura Opinionada:} Ideal para grandes aplicaciones empresariales donde la estructura y consistencia son cruciales.
+            \item \textbf{Mecanismo de Detección de Cambios (Zone.js):} Aunque diferente a Vue, funciona robustamente para la mayoría de los casos.
+        \end{itemize}
+\end{itemize}
+
+% --- Conclusión ---
+\section{Conclusión}
+La implementación del proyecto en Angular ha puesto de manifiesto las diferencias fundamentales en la filosofía y arquitectura respecto a Vue.js. Angular proporciona un entorno de desarrollo más estructurado y opinionado, con herramientas integradas como TypeScript, RxJS y una potente CLI, lo cual es beneficioso para aplicaciones complejas y equipos grandes. Su sistema de componentes, inyección de dependencias y manejo de estado a través de servicios con RxJS ofrecen un patrón claro para construir aplicaciones escalables.
+
+Por otro lado, Vue.js (observado en el código original) destaca por su flexibilidad, facilidad de adopción y un sistema de reactividad más directo y transparente basado en Proxies. La elección entre uno y otro dependerá de las necesidades específicas del proyecto, el tamaño del equipo, la experiencia previa y las preferencias sobre la estructura y las herramientas. Ambos frameworks son capaces y modernos, pero abordan el desarrollo frontend desde perspectivas distintas.
+
+\end{document}
